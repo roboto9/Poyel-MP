@@ -1,0 +1,190 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #87CEEB, #1E90FF); /* Dégradé bleu ciel */
+}
+
+header, nav, section, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    background-color: #3498db;
+    padding: 30px 0;
+}
+
+nav {
+    background-color: #3498db;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#main-content {
+    display: flex;
+}
+
+#about, #projects {
+    flex: 1;
+}
+
+#about, #projects, #contact {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+#photo-container {
+    position: relative;
+    text-align: center;
+}
+
+#photo-container img {
+    width: 200px;
+    height: auto;
+    border: 5px solid #fff; /* Cadre blanc autour de l'image */
+}
+
+#contact-space {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
+#contact-space a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+}
+#photo-container img {
+    width: 200px;
+    height: auto;
+    border: 5px solid #000; /* Bordure solide de couleur noire */
+}
+body {
+    color: #000; /* Noir */
+}
+
+header, nav a {
+    color: #000; /* Noir */
+}
+
+.project h3 {
+    color: #00ff00; /* Vert clair */
+}
+
+#contact-space a {
+    color: #00ff00; /* Vert clair */
+}
+footer {
+    color: #000; /* Noir */
+}
+body {
+    background: linear-gradient(to bottom, #87CEEB, #1E90FF); /* Dégradé bleu ciel */
+}
+#photo-container img {
+    width: 200px;
+    height: auto;
+    border: 5px solid #000; /* Bordure solide de couleur noire */
+    transition: transform 0.3s ease; /* Ajout de la transition au mouvement */
+}
+
+#photo-container img:hover {
+    transform: translateY(-5px); /* Déplacement vers le haut au survol */
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #87CEEB, #1E90FF); /* Dégradé bleu ciel */
+    transition: background-color 0.3s ease; /* Transition de couleur de fond au survol */
+}
+
+header, nav, section, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5; /* Blanc qui tend vers le gris */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    transition: background-color 0.3s ease; /* Transition de couleur de fond au survol */
+}
+
+header:hover, nav:hover, section:hover, footer:hover {
+    background-color: #ddd; /* Blanc plus clair au survol */
+}
+
+#main-content {
+    display: flex;
+    transition: transform 0.3s ease; /* Transition de mouvement au survol */
+}
+
+#main-content:hover {
+    transform: translateY(-5px); /* Déplacement vers le haut au survol */
+}
+
+#photo-container, #contact-space {
+    background-color: #f5f5f5; /* Blanc qui tend vers le gris pour les zones spécifiques */
+    transition: background-color 0.3s ease; /* Transition de couleur de fond au survol */
+}
+
+#photo-container:hover, #contact-space:hover {
+    background-color: #ddd; /* Blanc plus clair au survol */
+}
+#contact-space {
+    background-color: rgba(245, 245, 245, 0.0); /* Fond blanc transparent */
+    transition: background-color 0.3s ease; /* Transition de couleur de fond au survol */
+}
+
+#contact-space:hover {
+    background-color: rgba(245, 245, 245, 0.0); /* Fond blanc plus transparent au survol */
+}
+#photo-container img {
+    width: 200px;
+    height: auto;
+    border: 5px solid #000; /* Bordure solide de couleur noire */
+    box-shadow: 0 0 10px 5px #fff; /* Effet lumineux avec boîte à ombre */
+    transition: transform 0.3s ease; /* Transition de mouvement au survol */
+}
+
+#photo-container img:hover {
+    transform: translateY(-5px); /* Déplacement vers le haut au survol */
+    box-shadow: 0 0 15px 5px #fff; /* Effet lumineux accentué au survol */
+}
+header h1 {
+    border: 2px solid #ffd700; /* Bordure jaune autour du nom */
+    padding: 10px; /* Ajout de marge intérieure pour l'espace autour du texte */
+    display: inline-block; /* Permet au texte d'entourer la bordure */
+}
+
